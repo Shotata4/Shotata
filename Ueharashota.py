@@ -15,4 +15,3 @@ if st.sidebar.button("最適化実行"):
     result = optimize.minimize(objective_function, x0=0.0, bounds=[(x_min,x_max)], method=algorithm)
 
     st.write(result)
-    
